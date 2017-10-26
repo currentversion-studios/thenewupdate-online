@@ -9,3 +9,7 @@
 	margin-left: 300px;
 	margin-right: 300px;
 }
+
+#textarea1 {
+	border: black solid 7.5px;
+	padding-bottom: 100%;
