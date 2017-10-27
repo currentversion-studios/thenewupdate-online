@@ -17,12 +17,14 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+  document.getElementById("timerjs").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
 
   // If the count down is finished, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "Launching...";
+    document.getElementById("timerjs").innerHTML = "Launching...";
+    setTimeout(function(), 3000) {
+      document.getElementById("timerjs").innerHTML = "Launched";
   }
 }, 1000);
 //# sourceURL=userscript.js
