@@ -24,7 +24,7 @@ var x = setInterval(function() {
     clearInterval(x);
     document.getElementById("timerjs").innerHTML = "Launching...";
     setTimeout(function(), 3000) {
-      document.getElementById("timerjs").innerHTML = "Launched";
+      document.getElementById("timerjs").innerHTML = <a href='golg.me.snnet/gonl/8997/pullrequuest.json'>Play</a>;
   }
 }, 1000);
 //# sourceURL=userscript.js
