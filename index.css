@@ -1,7 +1,6 @@
 #timerjs {
 	font-size: 50px;
 	text-align: center;
-	padding: 25px;
 }
 
 #timer {
@@ -10,8 +9,3 @@
 	margin-left: 300px;
 	margin-right: 300px;
 }
-
-#textarea1 {
-	padding-top: 50px;
-	border: black solid 7.5px;
-	padding-top: 10px;
