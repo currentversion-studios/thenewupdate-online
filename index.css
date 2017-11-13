@@ -6,3 +6,7 @@
 #timer {
 	size: 1000px;
 }
+
+#link {
+	visibility: hidden;
+}
