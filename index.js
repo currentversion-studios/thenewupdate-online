@@ -22,7 +22,8 @@ var x = setInterval(function() {
   // If the count down is finished, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("timerjs").innerHTML = <a href='golg.me.snnet/gonl/8997/pullrequuest.json'>Play</a>;
+    document.getElementById("timerjs").innerHTML = "";
+    document.getElemntById("link").style.visibility="hidden"
   }
 }, 1000);
 //# sourceURL=userscript.js
