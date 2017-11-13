@@ -1,4 +1,3 @@
-document.getElemntById("link").style.visibility="hidden"
 // Set the date we're counting down to
 var countDownDate = new Date("Jan 1, 2018 00:00:00").getTime();
 
