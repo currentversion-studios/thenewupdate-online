@@ -1,3 +1,4 @@
+document.getElemntById("link").style.visibility="hidden"
 // Set the date we're counting down to
 var countDownDate = new Date("Jan 1, 2018 00:00:00").getTime();
 
@@ -23,7 +24,7 @@ var x = setInterval(function() {
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("timerjs").innerHTML = "";
-    document.getElemntById("link").style.visibility="hidden"
+    document.getElemntById("link").style.visibility="visible"
   }
 }, 1000);
 //# sourceURL=userscript.js
