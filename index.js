@@ -23,7 +23,7 @@ var x = setInterval(function() {
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("timerjs").innerHTML = "";
-    document.getElemntById("link").style.visibility="visible"
+    document.getElementById("link").style.visibility="visible"
   }
 }, 1000);
 //# sourceURL=userscript.js
