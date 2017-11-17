@@ -9,8 +9,17 @@
 
 #link {
 	font-size: 100px;
+	visibility: collapse;
+}
+
+#textarea1::first-child {
+	font-size: 25px;
 }
 
 #fineprint {
 	fornt-size: 2px;
+}
+
+#header1::first-child {
+	text-align: center;
 }
